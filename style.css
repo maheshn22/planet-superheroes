@@ -1,14 +1,30 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+	box-sizing: border-box;	
+}
+ 
+.navbar {
+	background-color:  #2a9df4;
+	color: aliceblue;
+	display: flex;
+	font-weight: 600;
+		
+}
+.navbar a {
+	color: aliceblue;
 }
 
-#car_veg{
-	height: 10%;
-	width: 100%;
+.navbar h2 {
+	color: aliceblue;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: 600;
+	padding-left: 10px;
 }
 
+.footer {
+	background-color: #d0efff;
+}
 
 .textlink {
 	text-decoration: none;
@@ -28,9 +44,7 @@
    
 	}
 	.navbar {
-		display: flex;
-		align-items: center;
-		padding: 20px;	
+		
 	}
 
 	nav {
