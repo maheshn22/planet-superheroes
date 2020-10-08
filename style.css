@@ -13,7 +13,8 @@
 }
 .navbar a {
 	color: aliceblue;
-	font-size: large;
+	font-size: larger;
+	font-weight: 700;
 }
 
 .navbar h2 {
@@ -95,7 +96,14 @@ ul{
 .jumbotron{
 	background-color: #1167b1; /* blue */
 	color: #ffffff;
- 
+ text-align: center;
+}
+
+.mini-jumbotron{
+		background-color: #187bcd; /* blue */
+		color: #ffffff;
+	 text-align: center;
+	
 }
 
 .card:hover {
@@ -104,7 +112,12 @@ ul{
 
 .card{
 	margin: 0.1em;
+	
+}
 
+.card-tee{
+	margin: 0.1rem;
+	
 }
 
 .logo-sm{
