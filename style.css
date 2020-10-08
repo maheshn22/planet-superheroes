@@ -13,6 +13,7 @@
 }
 .navbar a {
 	color: aliceblue;
+	font-size: large;
 }
 
 .navbar h2 {
@@ -80,4 +81,41 @@
 
 ul{
 	list-style-type: none;
+}
+
+.bluetxt{
+	color: #1167b1;
+}
+
+
+.bluebg{
+	background-color: #1167b1;
+}
+
+.jumbotron{
+	background-color: #1167b1; /* blue */
+	color: #ffffff;
+ 
+}
+
+.card:hover {
+	box-shadow: 5px 0px 40px #2a9df4;
+}
+
+.card{
+	margin: 0.1em;
+
+}
+
+.logo-sm{
+	width:40px;
+	height: 40px;
+	margin: 0.1em;
+	margin-right: 10px;
+}
+.logo-lg{
+	width:100px;
+	height: 100px;
+	margin: 1em;
+ 
 }
